@@ -19,13 +19,13 @@
 			<div class="form-group"> <input type="text" name="username" class="form-control" placeholder="Username"/><br/></div>
 			<div class="form-group"> <input type="password" name="password" class="form-control" placeholder="Password"/><br/></div>
 			<div class="card-header"><a href="${pageContext.request.contextPath}/views/admin-register.jsp">New User?Sign Up</a></div>
-			<%System.out.println("INSIDE INDEX.JSP, CREATING NEW ADMIN...");%>
-			
+			<%System.out.println("INSIDE INDEX.JSP, CREATING NEW ADMIN...");%>			
 			</div>			
 		<div>
 		<br/>
 		<input type="submit" value="Login" class="btn btn-primary"/>
 		<%System.out.println("INSIDE INDEX.JSP, LOG IN BUTTON...");%>
+		<%System.out.println("JUST TO TEST GIT PATCH...");%>
 		</div>
 </div>
 
