@@ -1,2 +1,2 @@
 # jonesarena
-All java and related framework application development stores here
+Employee Management system to manage employee by admin as well as back office users based on roles.
