@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>EMS_EmployeeManagementSystem</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>empDemo</display-name>
+    <servlet-name>empDemo</servlet-name>
+    <servlet-class>empDemo.empDemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>empDemo</servlet-name>
+    <url-pattern>/empDemo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>loginController</display-name>
+    <servlet-name>loginController</servlet-name>
+    <servlet-class>empDemo.loginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginController</servlet-name>
+    <url-pattern>/loginprocess</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>adminUserReg</display-name>
+    <servlet-name>adminUserReg</servlet-name>
+    <servlet-class>empDemo.adminUserReg</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>adminUserReg</servlet-name>
+    <url-pattern>/adminUserReg</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>logout</display-name>
+    <servlet-name>logout</servlet-name>
+    <servlet-class>empDemo.logout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>logout</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+</web-app>
